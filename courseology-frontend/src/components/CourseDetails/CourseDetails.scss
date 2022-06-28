@@ -1,0 +1,127 @@
+@use "../../assets/sass/variables" as *;
+
+.course-details {
+  border: solid 40px $color-light-grey;
+  height: 100vh;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+    &--info {
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: center;
+      background: none;
+      font-weight: bold;
+      color: $font-color-purple;
+      font-family: $font-family;
+      font-size: $font-size-M;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    height: 500px;
+    width: 900px;
+    background-color: $color-purple;
+    border-radius: 10px;
+
+    &--likes {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    &--label {
+      margin-right: 40px;
+      text-align: center;
+      color: $color-white;
+    }
+
+    &--price {
+      margin-left: 30px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: left;
+      color: $color-white;
+      background: none;
+      font-family: $font-family;
+      font-size: $font-size-SSS;
+    }
+
+    &--duration {
+      margin-left: 5px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: left;
+      color: $color-white;
+      background: none;
+      font-family: $font-family;
+      font-size: $font-size-SSS;
+    }
+
+    &--location {
+      margin-left: 3px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: left;
+      color: $color-white;
+      background: none;
+      font-family: $font-family;
+      font-size: $font-size-SSS;
+    }
+
+    &--summary {
+      margin-right: 5px;
+      width: 500px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: left;
+      color: $color-white;
+      background: none;
+      font-family: $font-family;
+      font-size: $font-size-SSS;
+    }
+  }
+  &__confirm {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    &--back {
+      margin-top: 30px;
+      width: 140px;
+      height: 60px;
+      border-radius: 6px;
+      border: none;
+      background: $color-light-grey;
+      font-weight: bold;
+      cursor: pointer;
+      color: $font-color-purple;
+      font-family: $font-family;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@use "../../assets/sass/variables" as *;
+
+.course {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px 5px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+
+  &-section {
+    border: 1px black solid;
+    height: 250px;
+    width: 400px;
+    margin-left: 40px;
+    background-color: $color-purple;
+    color: $color-white;
+    border-radius: 5%;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+
+    &__company {
+      margin-top: 70px;
+    }
+    &__duration {
+      font-size: $font-size-SM;
+      font-weight: bold;
+    }
+    &__location {
+      font-weight: bold;
+    }
+  }
+}

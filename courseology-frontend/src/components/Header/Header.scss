@@ -1,0 +1,11 @@
+@use "../../assets/sass/variables" as *;
+
+.header-section {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  background-color: $color-purple;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 20px;
+}

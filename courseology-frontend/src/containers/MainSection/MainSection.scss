@@ -1,0 +1,15 @@
+@use "../../assets/sass/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-right: 350px;
+  margin-bottom: 200px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,213 @@
+@use "../../assets/sass/variables" as *;
+
+.add-course {
+  border: solid 40px $color-light-grey;
+  height: 1300px;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: $font-color-purple;
+    font-family: $font-family;
+    font-size: 35px;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+
+    font-weight: bold;
+    color: $font-color-purple;
+    font-family: $font-family;
+    font-size: $font-size-M;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    &--home {
+      margin-top: 30px;
+      width: 140px;
+      height: 60px;
+      border-radius: 6px;
+      border: none;
+      background: $color-light-grey;
+      font-weight: bold;
+      cursor: pointer;
+      color: $font-color-purple;
+      font-family: $font-family;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    height: 700px;
+    width: 900px;
+    background-color: $color-purple;
+    border-radius: 10px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: $font-family;
+    margin-right: 30px;
+
+    &--label {
+      margin-right: 40px;
+      text-align: center;
+      color: $color-white;
+      font-weight: bold;
+    }
+    &--company {
+      margin-right: 5px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+
+    &--name {
+      margin-left: 25px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      text-align: start;
+      color: $font-color-black;
+    }
+    &--currency {
+      margin-right: 5px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+
+    &--price {
+      margin-left: 30px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+
+    &--duration {
+      margin-left: 5px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+
+    &--location {
+      margin-left: 3px;
+      width: 500px;
+      height: 50px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+
+    &--summary {
+      margin-right: 5px;
+      width: 500px;
+      height: 200px;
+      border: none;
+      resize: none;
+      outline: none;
+      text-align: start;
+      vertical-align: top;
+      border-radius: 5px;
+      background: $color-white;
+      font-size: $font-size-SM;
+      font-family: $font-family;
+      color: $font-color-black;
+    }
+  }
+  &__confirm {
+    display: flex;
+    justify-content: center;
+
+    &--cancel {
+      margin-top: 30px;
+      width: 140px;
+      height: 60px;
+      border-radius: 6px;
+      border: $color-light-grey solid 2px;
+      background: $color-light-grey;
+      font-weight: bold;
+      color: $font-color-purple;
+      font-family: $font-family;
+      margin-left: 245px;
+    }
+
+    &--save {
+      margin-top: 30px;
+      width: 503px;
+      height: 60px;
+      border-radius: 6px;
+      border: none;
+      background: $color-light-grey;
+      font-weight: bold;
+      cursor: pointer;
+      color: $font-color-purple;
+      font-family: $font-family;
+      margin-left: 92px;
+    }
+  }
+}
+
+::placeholder {
+  color: $font-color-grey;
+  font-size: $font-size-SSS;
+  font-family: $font-family;
+}
